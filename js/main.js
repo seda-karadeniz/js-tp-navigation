@@ -4,7 +4,7 @@
     if (!('querySelector' in document && 'addEventListener' in window)) {
         return;
     }
-    window.document.documentElement.classList.add(' js-enabled');
+    window.document.documentElement.classList.add('js-enabled');
 
 })();
 

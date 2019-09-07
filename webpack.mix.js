@@ -1,13 +1,16 @@
+// eslint-disable-next-line no-undef
 let mix = require('laravel-mix');
-require('laravel-mix-eslint');
 
-mix.js('src/js/main.js', 'js/min.main.js').eslint({
-    fix: false,
-    cache: false,
-}).sass('src/sass/style.scss', 'css/min.style.css').browserSync({
-    proxy: 'localhost:8888',
+mix.sass('src/sass/style.scss', 'css/min.style.css').browserSync({
+    proxy: false,
+    server: {
+        baseDir: './'
+    },
     files: [
-        'js/min.main.js'
+        'js/*.js',
+        'src/sass/**/*.scss',
+        '**/*.html',
+        '**/*.php'
     ]
 }).options({
     processCssUrls: false
