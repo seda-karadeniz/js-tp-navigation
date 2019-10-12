@@ -1,10 +1,11 @@
-(function () {
-    "use strict";
-
-    if (!('querySelector' in document && 'addEventListener' in window)) {
-        return;
-    }
+const SlideInOnScroll = {
+  cacheDom() {},
+  init() {
+    this.cacheDom();
     window.document.documentElement.classList.add('js-enabled');
+    this.addEventListeners();
+  },
+  addEventListeners() {},
+};
 
-})();
-
+SlideInOnScroll.init();
