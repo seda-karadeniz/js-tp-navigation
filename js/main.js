@@ -1,4 +1,4 @@
-const SlideInOnScroll = {
+const app = {
   cacheDom() {},
   init() {
     this.cacheDom();
@@ -8,4 +8,4 @@ const SlideInOnScroll = {
   addEventListeners() {},
 };
 
-SlideInOnScroll.init();
+app.init();
