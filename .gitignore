@@ -156,5 +156,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/node,sass,macos,windows,jetbrains
-*.min.css
-*.min.js
+
