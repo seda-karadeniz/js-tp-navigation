@@ -1,6 +1,14 @@
-# Boilerplate HTML 5 pour le cours de JavaScript 2019-2020
+# Boilerplate JavaScript
+> A JS boilerplate use at HEPL for DCC.
 
-Ceci est version très simplifiée inspirée du célèbre [boilerplate html 5](https://html5boilerplate.com/) adapté au cours de JavaScript.
+* * *
+
+**Boilerplate_JS** is an educational project, which will be used for `JS` courses.
+
+**Note:** the school where the course is given, the [HEPL](http://www.provincedeliege.be/hauteecole) from Liège, Belgium, is a french-speaking school. From this point, the instruction will be in french. Sorry.
+
+* * *
+Ceci est une version très simplifiée inspirée du célèbre [boilerplate html 5](https://html5boilerplate.com/) adapté au cours de JavaScript.
 
 La compilation des fichiers SCSS et JS se fait à l’aide de [laravel-mix](https://laravel-mix.com/). Les fichiers sources se retrouvent dans le dossier `src`.
 
@@ -37,7 +45,7 @@ Vous pouvez aussi demander une compilation automatique provoquée par le changem
 Pour cela vous devez lancer la commande suivante.
 
 ```
-npm run watch
+npm run hot
 ```
 
 ## ESLint pour une syntaxe plus méthodique
